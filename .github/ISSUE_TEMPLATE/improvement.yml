@@ -1,0 +1,63 @@
+name: Improvement or new registry target
+description: Propose an improvement to the skill, or suggest a new registry target.
+title: "[improvement]: "
+labels:
+  - improvement
+  - triage
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to propose an improvement, a new registry target, a new
+        example, or to report a bug. Fields marked required must be filled in.
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      description: What kind of contribution is this?
+      options:
+        - Improvement
+        - New registry target
+        - New example
+        - Bug
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: A short, clear description of the proposal or problem.
+      placeholder: One or two sentences on what should change and why.
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Add context, reasoning, links, or a suggested approach.
+      placeholder: Optional. The more specific, the better.
+    validations:
+      required: false
+  - type: textarea
+    id: registry-target
+    attributes:
+      label: Registry target details
+      description: Only for a new registry target. Provide the fields below.
+      value: |
+        name:
+        type:
+        audience:
+        priority:
+        submission rules URL:
+    validations:
+      required: false
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      description: Please confirm both before submitting.
+      options:
+        - label: I verified the target's current submission rules
+          required: false
+        - label: No invented metrics or assumed acceptance
+          required: false

@@ -1,0 +1,75 @@
+[
+  {
+    "id": "profile-audit-full",
+    "prompt": "optimize my GitHub profile",
+    "expected_mode": "Profile Audit",
+    "must_include": [
+      "per-axis score",
+      "priority problems",
+      "proposed bio",
+      "7-day action plan"
+    ],
+    "must_not": [
+      "invented metrics",
+      "fabricated star counts"
+    ]
+  },
+  {
+    "id": "profile-readme-rewrite",
+    "prompt": "Here is my current profile README, please rewrite it: # Hi I am Jane\\nI code things sometimes and work with data.",
+    "expected_mode": "Profile README Rewrite",
+    "must_include": [
+      "hero section",
+      "value proposition",
+      "short version",
+      "long version",
+      "CTA"
+    ],
+    "must_not": [
+      "invented metrics"
+    ]
+  },
+  {
+    "id": "pinned-repos-selection",
+    "prompt": "which repositories should I pin?",
+    "expected_mode": "Profile Audit",
+    "must_include": [
+      "pinned repositories",
+      "best first",
+      "tied to concrete use"
+    ],
+    "must_not": [
+      "invented metrics"
+    ]
+  },
+  {
+    "id": "registry-submission",
+    "prompt": "help me list my skill in the awesome lists / registries",
+    "expected_mode": "Agent Skill SEO & Registry Submission",
+    "must_include": [
+      "skill-repository-seo-kit",
+      "registry-submission-kit",
+      "priority",
+      "verify current rules",
+      "PR body"
+    ],
+    "must_not": [
+      "assumed acceptance",
+      "invented submission rules"
+    ]
+  },
+  {
+    "id": "skill-frontmatter-description",
+    "prompt": "improve my SKILL.md frontmatter description",
+    "expected_mode": "Skill Positioning",
+    "must_include": [
+      "activation-oriented",
+      "trigger phrases",
+      "kebab-case name",
+      "keywords"
+    ],
+    "must_not": [
+      "generic marketing description"
+    ]
+  }
+]

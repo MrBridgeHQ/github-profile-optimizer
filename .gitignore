@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Local context output from the optional collector script
+context.json
+*.local.json
+
+# OS / editor
+.DS_Store
+*.swp
+*.swo
