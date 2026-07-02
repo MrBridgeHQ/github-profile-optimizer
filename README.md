@@ -110,3 +110,8 @@ MIT. See `LICENSE`.
 ## Résumé en français
 
 `github-profile-optimizer` est un skill Claude Code (format Agent Skills, basé sur `SKILL.md`) qui audite et optimise un profil GitHub, améliore la découvrabilité des dépôts, et prépare la publication de vos propres skills dans les annuaires et awesome lists de l'écosystème Agent Skills / Claude Skills. Il fonctionne sans accès réseau : il travaille à partir d'un nom d'utilisateur, de README collés ou de fichiers locaux. Il n'invente jamais de métriques GitHub et rappelle de vérifier les règles de chaque annuaire avant toute soumission. Cinq modes : audit de profil, réécriture du README de profil, audit SEO d'un dépôt, kit SEO et soumission aux annuaires pour un skill, et positionnement d'un skill. Installation : copiez `.claude/skills/github-profile-optimizer/` dans le dossier `.claude/skills/` d'un projet, ou dans `~/.claude/skills/` pour un usage global.
+
+---
+
+Part of the **[mr-bridge.com](https://mr-bridge.com)** toolkit for scraping, data, and content automation:
+[Scrapers](https://mr-bridge.com/scrapers) · [MCP servers](https://mr-bridge.com/mcp-servers) · [AI workflows](https://mr-bridge.com/ai-workflows) · [Studies](https://mr-bridge.com/studies) · [Articles](https://mr-bridge.com/articles) · [Solutions](https://mr-bridge.com/solutions)
